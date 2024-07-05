@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>seach-boxes</title>
+
+        <style>
+
+            input
+            {
+                margin-top: 50px;
+                margin-right: 10px;
+            }
+
+            .first
+            {
+                border-radius: 10px;
+                border: solid;
+                border-width: 1px;
+                border-color: grey;
+                font-size: 20px;
+                padding: 12px 0px 12px 14px;
+                margin-bottom: 40px;
+            }
+
+            .second
+            {
+                border-radius: 25px;
+                border: none;
+                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+                background-color: rgba(251, 249, 246, 0.888);
+                padding: 13px 12px 13px 12px;
+                width: 500px;
+                font-size: 18px;
+
+            }
+            h4
+            {
+                margin-bottom: 7px;
+                margin-left: 40px;
+                margin-right: 100px;
+            }
+
+            .third
+            {
+                margin-top: 0px;
+                width: 340px;
+                height: 22px;
+                border-width: 1.5px;
+                border-color: black;
+                border-style: solid;
+                margin-left: 40px;
+                border-radius: 5px;
+            }
+
+            p
+            {
+                font-size: 12px;
+                margin-left: 40px;
+                color: rgb(77, 75, 75);
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+
+            .agree
+            {
+                padding: 13px 140px 13px 140px;
+                border-radius: 30px;
+                margin-left: 40px;
+                background-color: rgba(8, 8, 237, 0.841);
+                border: none;
+                color: white;
+                cursor: pointer;
+                transition: opacity 0.15s;
+                margin-right: 150px;
+            }
+
+            .agree:active
+            {
+                opacity: 0.4;
+                /* margin-right: 150px; */
+            }
+
+            .class
+            {
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                object-fit: center;
+                margin-left: 50px;
+                vertical-align: middle;
+            }
+
+            
+            .search
+            {
+                border: none;
+                font-family: Arial;
+                margin-left: 8px;
+                font-size: 20px;
+                margin-right: 60px;
+            }
+
+            .tweet
+            {
+                /* vertical-align: middle; */
+                padding: 10px 20px 10px 20px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <input class = "first" type = "text" placeholder = "Search">
+        <input class = "second" type = "text" placeholder = "Search Google or type a URL">
+        <h4>E-mail</h4>
+        <input class = "third" type = "text">
+        <p>By clicking   Agree & Join, you agree to the Privacy Policy</p>
+        <button class = "agree">Agree & Join</button>
+
+        <img class=" class" src = "thumbnails/thumbnail-1.webp">
+        <input class = "search" type = "text" placeholder = "What's Happening?">
+        <button class = "tweet">Tweet</button>
+    </body>
+
+</html>

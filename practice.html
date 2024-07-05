@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practice</title>
+        <style>
+            @keyframes bounce {
+                0% { transform: translateY(0); }
+                50% { transform: translateY(-20px); }
+                100% { transform: translateY(0); }
+            }
+        </style>
+    </head>
+    <body style="
+        background-color: black;
+    ">
+        <img style="
+            box-shadow: 1px 1px 20px yellow;
+            margin-right: 100px;
+            background-color: black;
+        " src="profile-pictures/channel-1.jpeg">
+        
+        <img style="
+            filter: drop-shadow(1px 1px 20px yellow);
+            background-color: black;
+        " src="profile-pictures/channel-2.jpeg">
+        
+        <p style="
+            height: 50px;
+            width: 90px;
+            animation-name: bounce;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            margin-top: 100px;
+            background-color: pink;
+        ">Bounce</p>
+    </body>
+</html>

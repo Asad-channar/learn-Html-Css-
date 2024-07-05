@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uber Site</title>
+
+        <style>
+
+            .para{
+                font-family: Arial;
+                font-size: 30px;
+                margin-bottom: 19px;
+            }
+
+            input
+            {
+                display: block;
+                margin-top: 4px;
+            }
+
+            .destination
+            {
+                margin-bottom: 22px;
+                background-color: ghostwhite;
+                border: none;
+                width: 280px;
+                font-size: 13px;
+                padding: 8px 0px 8px 14px;
+            }
+
+            .pickup
+            {
+                background-color: ghostwhite;
+                border: none;
+                width: 280px;
+                font-size: 13px;
+                padding: 8px 0px 8px 14px;
+            }
+
+            .request
+            {
+                background-color: black;
+                color: white;
+                padding: 10px 12px 10px 12px;
+                border: none;
+                font-weight: bold;
+                margin-right: 15px;
+            }
+
+            .shedule
+            {
+                color: black;
+                font-weight: bold;
+                background-color: ghostwhite;
+                padding: 9px 13px 9px 13px;
+                border: none;
+                transition: background-color  3s;
+            }
+            button:hover
+            {
+                cursor: pointer;
+            }
+
+            .pickup:hover
+            {
+                background-color: aquamarine;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <p class = "para">Request a ride now</p>
+        <input class = "pickup" type = "text" placeholder = "Enter pickup location">
+        <input class = "destination" type = "text" placeholder = "Enter destination">
+
+        <button class = "request">Request now</button>
+        <button class = "shedule">Schedule for later</button>
+    </body>
+</html>

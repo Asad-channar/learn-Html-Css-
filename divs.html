@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Divs Exercise</title>
+
+        <style>
+            
+            div
+            {
+                margin: 10px 50px 10px 10px;
+                display: inline-block;
+                vertical-align: top;
+            }
+
+            .div1
+            {
+                background-color: red;
+                height: 50px;
+                width: 50px;
+            }
+
+            .div2
+            {
+                background-color: green;
+                height: 50px;
+                width: 50px;
+                border-radius: 25px; 
+            }
+
+            .div3
+            {
+                font-family: Arial;
+                height: 100px;
+                width: 350px;
+                border-width: 0.5px;
+                border-style: solid;
+                border-color: rgb(207, 196, 196);
+                padding-left: 20px;
+            }
+
+            .div4
+            {
+                font-family: Arial;
+                height: 100px;
+                width: 330px;
+                background-color: rgb(62, 61, 61);
+                padding-left: 12px;
+                padding-bottom: 20px;
+            }
+
+            .div4p1
+            {
+                font-size: 23px;
+                color: white;
+                font-weight: bold;
+            }
+            
+            .div4p2
+            {
+                color: rgb(179, 167, 167);
+            }
+
+            .div5
+            {
+                display: flex;
+                align-items: center; /* Align items vertically */
+                gap: 10px; /* Optional: add some space between items */
+                padding: 10px 40px 10px 10px;
+                width: 450px;
+                border-radius: 8px;
+                height: 35px;
+                border: none;
+                box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15)
+            }
+
+            .div5button
+            {
+                padding: 6px 12px 6px 12px;
+                background-color: blue;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+                border-radius: 30px;
+                border: none;
+                cursor: pointer;
+                margin-left: 150px;
+
+            }
+
+
+        .img 
+        {
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+        }
+
+        img
+        {
+            width: 200px;
+        }
+
+        .bigdiv
+        {
+            display: inline-block;
+            padding: 8px 8px 8px 8px;
+            height: 250px;
+            width: 800px;
+            background-color: aqua;
+        }
+
+        .pic1div
+        {
+            background-color: blue;
+            width: 200px;
+        }
+
+        .img1
+        {
+            height: 100px;
+            width: 200px;
+            object-fit: center;
+            margin-bottom: 0px;
+        }
+
+        .mutual2
+        {
+            margin-top: 0px;
+        }
+
+        .pic2div
+        {
+            background-color: blue;
+            width: 200px;
+        }
+
+        .img2
+        {
+            height: 100px;
+            width: 200px;
+            object-fit: center;
+        }
+         
+        .pic3div
+        {
+            background-color: blue;
+            width: 200px;
+        }
+
+        .img3
+        {
+            height: 100px;
+            width: 200px;
+            object-fit: center;
+        }
+        </style>
+
+    </head>
+
+    <body>
+        <div class = "div1"></div>
+        <div class = "div2"></div>
+
+        <div class = "div3">
+            <p>Satisfied with our service?</p>
+            <button>Yes</button>
+            <button>No</button>
+        </div>
+
+        <div class = "div4">
+            <p class = "div4p1">Install YouTube Music</p>
+
+            <p class = "div4p2">Add YouTube to your desktop for quick and <br> easy access</p>
+        </div>
+
+        <div class = "div5">
+            <img class = "img" src = thumbnails/thumbnail-1.webp>
+            <p class = "div5p">What's happening?</p>
+            <button class = "div5button">Tweet</button>
+        </div>
+
+        <div class = "bigdiv">
+
+            <div class = "pic1div">
+                <img class ="img1" src = "thumbnails/thumbnail-3.webp">
+                <h4 class = "oliver">Oliver</h4>
+                <p class = "mutual2">2 mutual friends</p>
+                <button class = "friend1">Add Friend</button>
+            </div>
+
+            <div class = "pic2div">
+                <img class ="img2" src = "thumbnails/thumbnail-2.webp">
+                <h4 class = "oliver">Oliver</h4>
+                <p class = "mutual3">3 mutual friends</p>
+                <button class = "friend2">Add Friend</button>
+            </div>
+
+            <div class = "pic3div">
+                <img class ="img3" src = "thumbnails/thumbnail-1.webp">
+                <h4 class = "Rex">Oliver</h4>
+                <p class = "mutual4">4 mutual friends</p>
+                <button class = "friend3">Add Friend</button>
+            </div>
+
+           
+        </div>
+
+    </body>
+</html>
